@@ -14,4 +14,3 @@ print(student_grades)
 hello = "ggwp".upper()
 
 print(hello)
-
