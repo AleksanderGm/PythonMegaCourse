@@ -1,10 +1,10 @@
-#integer
+#integer    (int)
 x = 10
 
-#string
+#string     (str)
 y = "10"
 
-#float
+#float      (float)
 z = 10.1
 
 sum1 = x + x
