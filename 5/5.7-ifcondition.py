@@ -68,3 +68,9 @@ if x == 1 or y==2:
 else:
     print("No")
 
+isinstance("abc", str)
+isinstance([1, 2, 3], list)
+or
+
+type("abc") == str
+type([1, 2, 3]) == lst
