@@ -1,5 +1,5 @@
 def sentence_maker(phrase):
-    interrogatives = ("how", "what", "why")
+    interrogatives = ("how", "why", "what")
     capitalized = phrase.capitalize()
     if phrase.startswith(interrogatives):
         return "{}?".format(capitalized)
@@ -14,4 +14,4 @@ while True:
     else:
         results.append(sentence_maker(user_input))
 
-print(" ".join(results))
+print(results)
